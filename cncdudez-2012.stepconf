@@ -34,9 +34,9 @@
   <property name="ladderhaltype" type="int" value="0"/>
   <property name="laddername" type="string" value="custom.clp"/>
   <property name="latency" type="float" value="14000.0"/>
-  <property name="machinename" type="string" value="my-mill"/>
+  <property name="machinename" type="string" value="cncdudez-2012"/>
   <property name="manualtoolchange" type="bool" value="True"/>
-  <property name="md5sums" type="eval" value="[('/home/njh/linuxcnc/configs/my-mill/README', 'a7330fe1da7b11d5a72199f0d642cfce'), ('/home/njh/linuxcnc/configs/my-mill/my-mill.ini', '5af7f4836e1c897a4916b15d1a467ab1'), ('/home/njh/linuxcnc/configs/my-mill/my-mill.hal', '428e72b08629f2677b489d26a36b06e4')]"/>
+  <property name="md5sums" type="eval" value="[('/home/njh/linuxcnc/configs/cncdudez-2012/README', 'f8a0f8d5780324f1dba34ddeb90000ab'), ('/home/njh/linuxcnc/configs/cncdudez-2012/cncdudez-2012.ini', 'a7fe770386f7ba2a205cf5e3c2ce33aa'), ('/home/njh/linuxcnc/configs/cncdudez-2012/cncdudez-2012.hal', '9d4d1388c06eefb6325a870ddbb4e08b')]"/>
   <property name="modbus" type="bool" value="False"/>
   <property name="number_pports" type="int" value="1"/>
   <property name="period" type="int" value="25000"/>
