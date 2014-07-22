@@ -39,13 +39,24 @@ http://cnc4you.co.uk/resources/CW5045.pdf
 Parallel Port configuration
 ---------------------------
 
+All pins are inverted.
 
 | Pin | Breakout Label | Linux CNC Description |
 |-----|----------------|-----------------------|
+| 1   | EN             | ESTOP Out             |
+| 2   | CKA            | X-Axis Step           |
+| 3   | CWA            | X-Axis Direction      |
+| 4   | CKB            | Y-Axis Step           |
+| 5   | CWB            | Y-Axis Direction      |
+| 6   | CKC            | Z-Axis Step           |
+| 7   | CWC            | Z-Axis Direction      |
+| 8   | CKD            | Unused                |
+| 9   | CWD            | Unused                |
 | 10  | IN4            | ESTOP In              |
 | 11  | IN3            | Both Limit + Home X   |
 | 12  | IN2            | Both Limit + Home Y   |
 | 13  | IN1            | Both Limit + Home Z   |
+| 14  | RLY            | Spindle On            |
 | 15  | IN5            | Probe In              |
 
 
