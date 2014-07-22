@@ -34,3 +34,23 @@ Configuration for the microsteping driver:
 More information in the datasheet:
 http://cnc4you.co.uk/resources/CW5045.pdf
 
+
+
+Parallel Port configuration
+---------------------------
+
+
+| Pin | Breakout Label | Linux CNC Description |
+|-----|----------------|-----------------------|
+| 10  | IN4            | ESTOP In              |
+| 11  | IN3            | Both Limit + Home X   |
+| 12  | IN2            | Both Limit + Home Y   |
+| 13  | IN1            | Both Limit + Home Z   |
+| 15  | IN5            | Probe In              |
+
+
+Parallet Port breakout board datasheet here:
+http://cnc4you.co.uk/resources/Breakout%20board%20HG08.pdf
+
+
+
