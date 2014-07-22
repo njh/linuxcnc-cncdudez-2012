@@ -34,6 +34,17 @@ Configuration for the microsteping driver:
 More information in the datasheet:
 http://cnc4you.co.uk/resources/CW5045.pdf
 
+Timing settings:
+
+| Setting              | Value       |
+|----------------------|-------------|
+| **Step Time**        | 2000 ns     |
+| **Step Space**       | 8000 ns     |
+| **Direction Hold**   | 5000 ns     |
+| **Direction Setup**  | 5000 ns     |
+| **Steps on**         | Rising Edge |
+
+More here: http://wiki.linuxcnc.org/cgi-bin/wiki.pl?CW5045
 
 
 Parallel Port configuration
