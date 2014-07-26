@@ -88,6 +88,7 @@ They are connected to the control box using 4-pin XLRs.
 ![XLR 4 Pinout](https://github.com/njh/linuxcnc-cncdudez-2012/raw/master/docs/xlr4_stepper.png)
 
 | XLR Pin | Description | Cable Colour | Stepper Motor colour |
+|---------|-------------|--------------|----------------------|
 | 1       | A+          | White        | Red + Blue           |
 | 2       | A-          | Yellow       | Yellow + Black       |
 | 3       | B+          | Brown        | White + Brown        |
