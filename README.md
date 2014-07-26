@@ -106,10 +106,11 @@ Input Connector Wiring
 | Mini XLR Pin | Description  | Cable Colour |
 |--------------|--------------|--------------|
 | 1            | Shield       | Shield       |
-| 2            | Input Signal | Black        |
-| 3            | +5v          | Red          |
+| 2            | +5v          | Red          |
+| 3            | Input Signal | Black        |
 
 **Do not use Pin 1 / Shield as group / 0v**
+
 Note that the pin-out of a mini XLR is slightly different to a normal XLR.
 
 
