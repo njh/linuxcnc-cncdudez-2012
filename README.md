@@ -98,6 +98,20 @@ Stepper motor datasheet here:
 https://github.com/njh/linuxcnc-cncdudez-2012/raw/master/docs/57HS82-3008B.pdf
 
 
+Input Connector Wiring
+----------------------
+
+![Mini XLR-3 Pinout](https://github.com/njh/linuxcnc-cncdudez-2012/raw/master/docs/mini-xlr3_input.png)
+
+| Mini XLR Pin | Description  | Cable Colour |
+|--------------|--------------|--------------|
+| 1            | Shield       | Shield       |
+| 2            | Input Signal | Black        |
+| 3            | +5v          | Red          |
+
+**Do not use Pin 1 / Shield as group / 0v**
+Note that the pin-out of a mini XLR is slightly different to a normal XLR.
+
 
 Other Notes
 -----------
