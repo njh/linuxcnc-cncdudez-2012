@@ -96,3 +96,13 @@ They are connected to the control box using 4-pin XLRs.
 
 Stepper motor datasheet here:
 https://github.com/njh/linuxcnc-cncdudez-2012/raw/master/docs/57HS82-3008B.pdf
+
+
+
+Other Notes
+-----------
+
+Steps per revolution: 200
+Driver Micro-stepping: 10
+Pully Teeth (Z axis): 1.0 : 1.0
+Ballscrew Pitch: 4mm per revolution
