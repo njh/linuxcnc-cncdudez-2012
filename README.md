@@ -77,3 +77,21 @@ All pins are inverted.
 
 Parallet Port breakout board datasheet here:
 https://github.com/njh/linuxcnc-cncdudez-2012/raw/master/docs/HG08.pdf
+
+
+Stepper Motor Wiring
+--------------------
+
+I am using 57HS82-3008B 2.2Nm Stepper Motors, wired in Bi-polar parallel mode.
+They are connected to the control box using 4-pin XLRs.
+
+![XLR 4 Pinout](https://github.com/njh/linuxcnc-cncdudez-2012/raw/master/docs/xlr4_stepper.png)
+
+| XLR Pin | Description | Cable Colour | Stepper Motor colour |
+| 1       | A+          | White        | Red + Blue           |
+| 2       | A-          | Yellow       | Yellow + Black       |
+| 3       | B+          | Brown        | White + Brown        |
+| 4       | B-          | Green        | Orange + Green       |
+
+Stepper motor datasheet here:
+https://github.com/njh/linuxcnc-cncdudez-2012/raw/master/docs/57HS82-3008B.pdf
