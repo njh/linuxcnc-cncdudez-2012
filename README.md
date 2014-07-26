@@ -50,29 +50,30 @@ More here: http://wiki.linuxcnc.org/cgi-bin/wiki.pl?CW5045
 Parallel Port configuration
 ---------------------------
 
+I am using a HG08 Parallel Port 'breakout board':
+http://www.cnc4you.co.uk/index.php?route=product/product&product_id=300
+
 All pins are inverted.
 
-| Pin | Breakout Label | Linux CNC Description |
-|-----|----------------|-----------------------|
-| 1   | EN             | ESTOP Out             |
-| 2   | CKA            | X-Axis Step           |
-| 3   | CWA            | X-Axis Direction      |
-| 4   | CKB            | Y-Axis Step           |
-| 5   | CWB            | Y-Axis Direction      |
-| 6   | CKC            | Z-Axis Step           |
-| 7   | CWC            | Z-Axis Direction      |
-| 8   | CKD            | Unused                |
-| 9   | CWD            | Unused                |
-| 10  | IN4            | ESTOP In              |
-| 11  | IN3            | Both Limit + Home X   |
-| 12  | IN2            | Both Limit + Home Y   |
-| 13  | IN1            | Both Limit + Home Z   |
-| 14  | RLY            | Spindle On            |
-| 15  | IN5            | Probe In              |
+
+| Pin | Direction | Breakout Label | Linux CNC Description |
+|-----|-----------|----------------|-----------------------|
+| 1   | Out       | EN             | ESTOP Out             |
+| 2   | Out       | CKA            | X-Axis Step           |
+| 3   | Out       | CWA            | X-Axis Direction      |
+| 4   | Out       | CKB            | Y-Axis Step           |
+| 5   | Out       | CWB            | Y-Axis Direction      |
+| 6   | Out       | CKC            | Z-Axis Step           |
+| 7   | Out       | CWC            | Z-Axis Direction      |
+| 8   | Out       | CKD            | Unused                |
+| 9   | Out       | CWD            | Unused                |
+| 10  | In        | IN4            | ESTOP In              |
+| 11  | In        | IN3            | Both Limit + Home X   |
+| 12  | In        | IN2            | Both Limit + Home Y   |
+| 13  | In        | IN1            | Both Limit + Home Z   |
+| 14  | Out       | RLY            | Spindle On            |
+| 15  | In        | IN5            | Probe In              |
 
 
 Parallet Port breakout board datasheet here:
-http://cnc4you.co.uk/resources/Breakout%20board%20HG08.pdf
-
-
-
+https://github.com/njh/linuxcnc-cncdudez-2012/raw/master/docs/HG08.pdf
