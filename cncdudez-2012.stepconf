@@ -35,8 +35,8 @@
   <property name="laddername" type="string" value="custom.clp"/>
   <property name="latency" type="float" value="14000.0"/>
   <property name="machinename" type="string" value="cncdudez-2012"/>
-  <property name="manualtoolchange" type="bool" value="True"/>
   <property name="md5sums" type="eval" value="[('/home/njh/linuxcnc/configs/cncdudez-2012/README', 'f8a0f8d5780324f1dba34ddeb90000ab'), ('/home/njh/linuxcnc/configs/cncdudez-2012/cncdudez-2012.ini', 'a7fe770386f7ba2a205cf5e3c2ce33aa'), ('/home/njh/linuxcnc/configs/cncdudez-2012/cncdudez-2012.hal', '9d4d1388c06eefb6325a870ddbb4e08b')]"/>
+  <property name="manualtoolchange" type="bool" value="False"/>
   <property name="modbus" type="bool" value="False"/>
   <property name="number_pports" type="int" value="1"/>
   <property name="period" type="int" value="25000"/>
