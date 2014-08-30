@@ -75,6 +75,56 @@
   <property name="pin9" type="string" value="unused-output"/>
   <property name="pin9inv" type="bool" value="True"/>
   <property name="pp2_direction" type="int" value="0"/>
+  <property name="pp2_pin1" type="string" value="unused-output"/>
+  <property name="pp2_pin10_in" type="string" value="unused-input"/>
+  <property name="pp2_pin10_in_inv" type="int" value="0"/>
+  <property name="pp2_pin11_in" type="string" value="unused-input"/>
+  <property name="pp2_pin11_in_inv" type="int" value="0"/>
+  <property name="pp2_pin12_in" type="string" value="unused-input"/>
+  <property name="pp2_pin12_in_inv" type="int" value="0"/>
+  <property name="pp2_pin13_in" type="string" value="unused-input"/>
+  <property name="pp2_pin13_in_inv" type="int" value="0"/>
+  <property name="pp2_pin14" type="string" value="unused-output"/>
+  <property name="pp2_pin14inv" type="int" value="0"/>
+  <property name="pp2_pin15_in" type="string" value="unused-input"/>
+  <property name="pp2_pin15_in_inv" type="int" value="0"/>
+  <property name="pp2_pin16" type="string" value="unused-output"/>
+  <property name="pp2_pin16inv" type="int" value="0"/>
+  <property name="pp2_pin17" type="string" value="unused-output"/>
+  <property name="pp2_pin17inv" type="int" value="0"/>
+  <property name="pp2_pin1inv" type="int" value="0"/>
+  <property name="pp2_pin2" type="string" value="unused-output"/>
+  <property name="pp2_pin2_in" type="string" value="unused-input"/>
+  <property name="pp2_pin2_in_inv" type="int" value="0"/>
+  <property name="pp2_pin2inv" type="int" value="0"/>
+  <property name="pp2_pin3" type="string" value="unused-output"/>
+  <property name="pp2_pin3_in" type="string" value="unused-input"/>
+  <property name="pp2_pin3_in_inv" type="int" value="0"/>
+  <property name="pp2_pin3inv" type="int" value="0"/>
+  <property name="pp2_pin4" type="string" value="unused-output"/>
+  <property name="pp2_pin4_in" type="string" value="unused-input"/>
+  <property name="pp2_pin4_in_inv" type="int" value="0"/>
+  <property name="pp2_pin4inv" type="int" value="0"/>
+  <property name="pp2_pin5" type="string" value="unused-output"/>
+  <property name="pp2_pin5_in" type="string" value="unused-input"/>
+  <property name="pp2_pin5_in_inv" type="int" value="0"/>
+  <property name="pp2_pin5inv" type="int" value="0"/>
+  <property name="pp2_pin6" type="string" value="unused-output"/>
+  <property name="pp2_pin6_in" type="string" value="unused-input"/>
+  <property name="pp2_pin6_in_inv" type="int" value="0"/>
+  <property name="pp2_pin6inv" type="int" value="0"/>
+  <property name="pp2_pin7" type="string" value="unused-output"/>
+  <property name="pp2_pin7_in" type="string" value="unused-input"/>
+  <property name="pp2_pin7_in_inv" type="int" value="0"/>
+  <property name="pp2_pin7inv" type="int" value="0"/>
+  <property name="pp2_pin8" type="string" value="unused-output"/>
+  <property name="pp2_pin8_in" type="string" value="unused-input"/>
+  <property name="pp2_pin8_in_inv" type="int" value="0"/>
+  <property name="pp2_pin8inv" type="int" value="0"/>
+  <property name="pp2_pin9" type="string" value="unused-output"/>
+  <property name="pp2_pin9_in" type="string" value="unused-input"/>
+  <property name="pp2_pin9_in_inv" type="int" value="0"/>
+  <property name="pp2_pin9inv" type="int" value="0"/>
   <property name="pp3_direction" type="int" value="0"/>
   <property name="pyvcp" type="bool" value="False"/>
   <property name="pyvcpconnect" type="bool" value="True"/>
