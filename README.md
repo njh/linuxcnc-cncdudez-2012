@@ -122,6 +122,7 @@ Sadly I have had some trouble with high Jitter in the latency tests - this mainl
 to occur when doing other operations, such as transferring files and waking from sleep.
 
 |                       | Max Interval (ns) | Max Jitter (ns) |
+|-----------------------|-------------------|-----------------|
 | Server Thread (1.0ms) |           1067369 |           76089 |    
 | Base thread (25.0us)  |             61272 |           36490 |
 
