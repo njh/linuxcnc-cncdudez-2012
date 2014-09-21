@@ -5,4 +5,5 @@ sets spindle-at-speed true
 
 net mdi-go-home pyvcp.go-home => halui.mdi-command-00
 net mdi-go-centre pyvcp.go-centre => halui.mdi-command-01
+net mid-do-probe pyvcp.do-probe => halui.mdi-command-02
 

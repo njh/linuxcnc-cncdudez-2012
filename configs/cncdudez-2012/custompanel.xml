@@ -10,4 +10,10 @@
    <halpin>"go-centre"</halpin>
    <font>("Helvetica",24)</font>
  </button>
+ <button>
+   <text>"Do Probe"</text>
+   <halpin>"do-probe"</halpin>
+   <font>("Helvetica",24)</font>
+ </button>
 </pyvcp>
+

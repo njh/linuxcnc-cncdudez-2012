@@ -1,0 +1,39 @@
+%
+( Probe to touch plate and set Z)
+( With thanks to Pete Mills: )
+(http://petemills.blogspot.co.uk/2014/04/diy-pick-and-place-machine-part-2.html)
+
+o<do-probe> sub
+  ( switch to absolute coordinates )
+  G90
+
+  ( Move back to Z home )
+  G53 G0 Z0
+
+  ( Set current Z position to 0 so that we will always be moving down )
+  G10 L20 P0 Z0.0
+
+  ( Quickly probe down to touch off plate )
+  G38.2 Z-70 F200
+
+  ( Switch to relative coordinates )
+  G91
+
+  ( Rapid up 0.5mm )
+  G0 Z0.5
+
+  ( Probe slowly to get a more accurate zero )
+  G38.2 Z-1 F10
+
+  ( Reset location to Z0 )
+  G10 L20 P0 Z0
+
+  ( Switch back to absolute coordinates )
+  G90
+
+  ( Rapid to Z30 - probe tip is now 30mm above work surface )
+  G0 Z30
+o<do-probe> endsub
+M2
+%
+
