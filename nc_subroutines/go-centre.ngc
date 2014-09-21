@@ -1,3 +1,4 @@
+%
 (Sub-routine to move the machine to the centre of the table)
 o<go-centre> sub
   (Switch to absolute cooridinates)

@@ -1,3 +1,4 @@
+%
 (Sub-routine to move the machine back to the home location)
 o<go-home> sub
   (Switch to absolute cooridinates)
