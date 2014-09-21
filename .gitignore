@@ -1,2 +1,3 @@
 *.bak
 postgui_backup.hal
+linuxcnc.var
