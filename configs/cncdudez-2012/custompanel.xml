@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pyvcp>
+ <button>
+   <text>"Go Home"</text>
+   <halpin>"go-home"</halpin>
+   <font>("Helvetica",24)</font>
+ </button>
+ <button>
+   <text>"Go Centre"</text>
+   <halpin>"go-centre"</halpin>
+   <font>("Helvetica",24)</font>
+ </button>
+</pyvcp>

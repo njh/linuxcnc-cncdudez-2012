@@ -2,3 +2,7 @@
 # The commands in this file are run after the AXIS GUI (including PyVCP panel) starts
 
 sets spindle-at-speed true
+
+net mdi-go-home pyvcp.go-home => halui.mdi-command-00
+net mdi-go-centre pyvcp.go-centre => halui.mdi-command-01
+
