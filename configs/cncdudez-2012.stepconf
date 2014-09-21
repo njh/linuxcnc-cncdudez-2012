@@ -26,7 +26,7 @@
   <property name="drivertype" type="string" value="other"/>
   <property name="floatsin" type="float" value="10.0"/>
   <property name="floatsout" type="float" value="10.0"/>
-  <property name="halui" type="bool" value="False"/>
+  <property name="halui" type="bool" value="True"/>
   <property name="ioaddr" type="string" value="0x378"/>
   <property name="ioaddr2" type="string" value="Enter Address"/>
   <property name="ioaddr3" type="string" value="Enter Address"/>
