@@ -1,0 +1,16 @@
+(Sub-routine to move the machine to the centre of the table)
+o<go-centre> sub
+  (Switch to absolute cooridinates)
+  G90
+
+  (Make sure we are in mm mode)
+  G21
+
+  (Move to the top of the Z-axis for safety)  
+  G53 G0 Z0 F1800
+
+  (Centre the X and Y axis)
+  G53 G0 X150 Y150 F1800
+o<go-centre> endsub
+M2
+%

@@ -1,0 +1,16 @@
+(Sub-routine to move the machine back to the home location)
+o<go-home> sub
+  (Switch to absolute cooridinates)
+  G90
+
+  (Make sure we are in mm mode)
+  G21
+
+  (Home the Z-axis)  
+  G53 G0 Z0 F1800
+
+  (Home the X and Y axis)
+  G53 G0 X0 Y300 F1800
+o<go-home> endsub
+M2
+%
