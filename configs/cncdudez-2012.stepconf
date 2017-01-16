@@ -132,6 +132,7 @@
   <property name="pyvcpname" type="string" value="custompanel.xml"/>
   <property name="s32in" type="float" value="10.0"/>
   <property name="s32out" type="float" value="10.0"/>
+  <property name="sim_hardware" type="bool" value="False"/>
   <property name="spindlecarrier" type="int" value="100"/>
   <property name="spindlecpr" type="int" value="100"/>
   <property name="spindlefiltergain" type="float" value="0.01"/>
