@@ -141,10 +141,10 @@ how this would affect cutting times.
 Other Notes
 -----------
 
-Steps per revolution: 200
-Driver Micro-stepping: 10
-Pully Teeth (Z axis): 1.0 : 1.0
-Ballscrew Pitch: 4mm per revolution
+* Steps per revolution: 200
+* Driver Micro-stepping: 10
+* Pully Teeth (Z axis): 1.0 : 1.0
+* Ballscrew Pitch: 4mm per revolution
 
 
 
