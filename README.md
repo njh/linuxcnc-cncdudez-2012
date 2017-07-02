@@ -3,7 +3,11 @@ linuxcnc-cncdudez-2012
 
 LinuxCNC configuration for the CNCDudez 2012 Desktop Mini Muscle CNC Machine
 
+The machine is very similar to the "Mini Muscle MK2 Routing Machine" that CNC Design Ltd now sell:
+http://www.ukcnc.net/index.php/products/mini-muscle-mk2-routing-machine/
 
+But I bought "Option 1" which only included the aluminium frame.
+I bought and built the electronics seperately myself.
 
 
 CW5045 Microstepping Drivers
